@@ -1,0 +1,104 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.row {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.logo-box {
+  text-align: center;
+  color: #434343;
+}
+
+.logo {
+  width: 155px;
+  margin-top: 20px;
+}
+
+h1, h2, h3 {
+  margin: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+
+ul {
+  padding: 0;
+  margin: 50px 0;
+  list-style: none;
+}
+
+.menu {
+  margin: 60px 88px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  padding: 20px;
+    color: white;
+    background: #434343;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color .2s ease-in-out;
+}
+
+.menu li a.menu-active {
+  background-color: #fcb427;
+}
+
+.menu li a:hover {
+  background-color: #fec046;
+}
+
+table {
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+table.list {
+  width: 100%;
+}
+
+table.list tr td {
+  border: 1px solid #999999;
+}
+
+table.list tr th {
+  border: 1px solid #0B61A5;
+  background: #0B61A5;
+  color: white;
+  text-align: left;
+}
+
+dl {
+  clear: both;
+  overflow: hidden;
+  margin: 0.5em 0;
+}
+
+dt {
+  float: left;
+  font-weight: bold;
+  width: 125px;
+}
+
+dd {
+  float: left;
+  margin-left: 1em;
+}
